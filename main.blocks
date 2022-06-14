@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="b%$XT9yKS$vMGg:5ekdr" x="225" y="20"><statement name="HANDLER"><block type="controls_if" id="qV]ZSG4w,$,r,85EIgbP"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="ef;`A`EJL!5l1K6KM=@."><field name="NAME">TouchPin.P0</field></block></value><statement name="DO0"><block type="device_show_leds" id="{WmcqvhAr^v5~P3)ga5M"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement><statement name="ELSE"><block type="controls_if" id="gRiNLHLahnk=,/6Y;9n$"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="(C}[_KTd;L~*I}kh=RSZ"><field name="NAME">TouchPin.P1</field></block></value><statement name="DO0"><block type="device_show_leds" id="Muj}S={IsqZ$J~b;s5BL"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="controls_if" id="zs1J%2Vfd+5`AeoyvBL#"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="=,Sk-A*iYVWAI8$8Z}Iw"><field name="NAME">TouchPin.P2</field></block></value><statement name="DO0"><block type="device_show_leds" id="()2:/bmkP}iQP8PjgAY("><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id="I8d}0t!]fV2D){)$mWa*"/></statement></block></statement></block></statement></block></statement></block></xml>
